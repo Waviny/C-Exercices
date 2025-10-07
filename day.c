@@ -16,9 +16,7 @@ int main() {
 
     if (6<hour && hour<=12) {
         printf("C'est le matin à %d\n", hour);
-    } else if  (12<hour && hour<=13) {
-        printf("C'est le midi à %d\n", hour);
-    } else if (13<hour && hour<=19) {
+    } else if  (12<hour && hour<=19) {
         printf("C'est le après-midi à %d\n", hour);
     } else if (20<=hour && hour<=6) {
         printf("C'est le soir à %d\n", hour);
