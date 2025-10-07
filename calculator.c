@@ -22,16 +22,16 @@ int main() {
 
     if (choice==1) {
         resultat = number_1 + number_2;
-        printf("Résultat de votre opération : %f\n", resultat);
+        printf(" %f + %f = %f", number_1, number_2, resultat);
     } else if (choice==2) {
         resultat = number_1 - number_2;
-        printf("Résultat de votre opération : %f\n", resultat);
+        printf(" %f - %f = %f", number_1, number_2, resultat);
     } else if (choice==3) {
         resultat = number_1 * number_2;
-        printf("Résultat de votre opération : %f\n", resultat);
+        printf(" %f * %f = %f", number_1, number_2, resultat);
     } else if (choice==4) {
         resultat = number_1 / number_2;
-        printf("Résultat de votre opération : %f\n", resultat);
+        printf(" %f / %f = %f", number_1, number_2, resultat);
     } else {
         printf("Veuillez saisir un numéro valide lister ci dessus !");
     }
