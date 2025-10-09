@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int choice;
     float number_1;
     float number_2;
@@ -20,20 +21,19 @@ int main() {
     printf("Veuillez saisir votre deuxième nombre : ");
     scanf("%f", &number_2);
 
-    if (choice==1) {
+    if (choice == 1) {
         resultat = number_1 + number_2;
         printf(" %f + %f = %f", number_1, number_2, resultat);
-    } else if (choice==2) {
+    } else if (choice == 2) {
         resultat = number_1 - number_2;
         printf(" %f - %f = %f", number_1, number_2, resultat);
-    } else if (choice==3) {
+    } else if (choice == 3) {
         resultat = number_1 * number_2;
         printf(" %f * %f = %f", number_1, number_2, resultat);
-    } else if (choice==4) {
+    } else if (choice == 4) {
         resultat = number_1 / number_2;
         printf(" %f / %f = %f", number_1, number_2, resultat);
     } else {
         printf("Veuillez saisir un numéro valide lister ci dessus !");
     }
-    
 }
